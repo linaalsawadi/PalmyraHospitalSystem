@@ -1,0 +1,114 @@
+
+﻿.account-container {
+    background-image: url('../Images/account-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.account-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    max-width: 500px;
+    width: 100%;
+    opacity: .9;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+.luxury-login-wrapper {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(135deg, #0b1f3a, #0b3d91, #1a237e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Glass Effect */
+.luxury-login-card {
+    width: 420px;
+    padding: 45px;
+    border-radius: 18px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    color: white;
+}
+
+/* Branding */
+.luxury-brand h2 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.luxury-brand p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.luxury-icon {
+    font-size: 42px;
+    color: #ffd700;
+}
+
+/* Inputs */
+.luxury-input {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+    .luxury-input:focus {
+        background: rgba(255,255,255,0.15);
+        border-color: #1a73e8;
+        box-shadow: 0 0 10px rgba(26,115,232,0.6);
+        color: white;
+    }
+
+/* Labels */
+.luxury-label {
+    color: #e0e0e0;
+    font-size: 14px;
+}
+
+/* Button */
+.luxury-btn {
+    padding: 12px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #1a73e8, #0b3d91);
+    border: none;
+    font-weight: 500;
+    color: white;
+    transition: 0.3s;
+}
+
+    .luxury-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+/* Links */
+.luxury-link {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .luxury-link:hover {
+        text-decoration: underline;
+    }
